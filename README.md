@@ -178,7 +178,7 @@ Fluxo da operação:
 ### 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/api-aluguel-imoveis.git
+git clone https://github.com/stephanievitoria/api-aluguel-imoveis.git
 ```
 
 ### 2️⃣ Entrar na pasta do projeto
