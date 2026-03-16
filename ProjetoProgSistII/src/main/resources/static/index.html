@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Gerenciamento de Imóveis e Inquilinos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+</head>
+
+<body>
+<h1>Gerenciamento de Imóveis e Inquilinos</h1>
+
+<h2>Cadastro de Inquilinos</h2>
+<table id="tabelaFormularioInquilinos">
+    <tr> <td>Nome:</td> <td><input type="text" id="txtNomeInquilino"></td> </tr>
+    <tr> <td>Email:</td> <td><input type="email" id="txtEmailInquilino"></td> </tr>
+    <tr> <td>Telefone:</td> <td><input type="text" id="txtTelefoneInquilino"></td> </tr>
+    <tr><td></td><td>
+        <input type="button" value="Salvar" onclick="salvarInquilino()" id="btnSalvarInquilino">
+        <input type="button" value="Apagar" onclick="apagarFormularioInquilino()" id="btnApagarInquilino">
+        <input type="button" value="Cancelar" onclick="cancelarEdicaoInquilino()" id="btnCancelarInquilino">
+    </td></tr>
+</table>
+
+<h3>Lista de Inquilinos</h3>
+<table id="tabelaInquilinos">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Telefone</th>
+        <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<h2>Cadastro de Imóveis</h2>
+<table id="tabelaFormularioImoveis">
+    <tr> <td>Endereço:</td> <td><input type="text" id="txtEndereco"></td> </tr>
+    <tr> <td>Cidade:</td> <td><input type="text" id="txtCidade"></td> </tr>
+    <tr> <td>Bairro:</td> <td><input type="text" id="txtBairro"></td> </tr>
+    <tr> <td>Preço:</td> <td><input type="number" id="txtPreco" step="0.01"></td> </tr>
+    <tr> <td>Disponível:</td> <td><input type="checkbox" id="chkDisponivel"></td> </tr>
+    <tr> <td>Inquilino:</td>
+        <td>
+            <select id="selectInquilino">
+                <option value="">Nenhum</option>
+            </select>
+        </td>
+    </tr>
+    <tr><td></td><td>
+        <input type="button" value="Salvar" onclick="salvarImovel()" id="btnSalvarImovel">
+        <input type="button" value="Apagar" onclick="apagarFormularioImovel()" id="btnApagarImovel">
+        <input type="button" value="Cancelar" onclick="cancelarEdicaoImovel()" id="btnCancelarImovel">
+    </td></tr>
+</table>
+
+<h3>Lista de Imóveis</h3>
+<table id="tabelaImoveis">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Endereço</th>
+        <th>Cidade</th>
+        <th>Bairro</th>
+        <th>Preço</th>
+        <th>Disponível</th>
+        <th>Inquilino</th>
+        <th>Ações</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<h3>Imóveis Alugados</h3>
+<table id="tabelaImoveisAlugados">
+    <thead>
+    <tr>
+        <th>ID Imóvel</th>
+        <th>Endereço</th>
+        <th>Inquilino</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
