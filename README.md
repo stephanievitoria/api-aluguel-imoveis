@@ -8,7 +8,7 @@ Este projeto demonstra a construção de uma **API RESTful utilizando Spring Boo
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 * Java
 * Spring Boot
@@ -20,7 +20,7 @@ Este projeto demonstra a construção de uma **API RESTful utilizando Spring Boo
 
 ---
 
-# 📦 Arquitetura do Projeto
+# Arquitetura do Projeto
 
 A aplicação segue uma estrutura comum em projetos backend com **Spring Boot**, separando responsabilidades em camadas.
 
@@ -49,11 +49,11 @@ src/main/java
 
 ---
 
-# 🏢 Modelo de Domínio
+# Modelo de Domínio
 
 A API é baseada em três entidades principais:
 
-## 🏠 Imóvel
+## Imóvel
 
 Representa um imóvel disponível para aluguel.
 
@@ -70,7 +70,7 @@ Principais atributos:
 
 ---
 
-## 👤 Inquilino
+## Inquilino
 
 Representa a pessoa responsável pelo contrato de aluguel.
 
@@ -82,7 +82,7 @@ Principais atributos:
 
 ---
 
-## 📄 Aluguel
+## Aluguel
 
 Representa o contrato entre **inquilino** e **imóvel**.
 
@@ -96,7 +96,7 @@ Principais atributos:
 
 ---
 
-# ⚙️ Regras de Negócio Implementadas
+# Regras de Negócio Implementadas
 
 A API implementa algumas validações importantes:
 
@@ -109,7 +109,7 @@ Essas validações garantem a consistência das operações realizadas pela API.
 
 ---
 
-# 🔗 Principais Endpoints
+# Principais Endpoints
 
 ## Imóveis
 
@@ -198,18 +198,6 @@ A API ficará disponível em:
 ```
 http://localhost:8080
 ```
-
----
-
-# 📌 Possíveis Melhorias Futuras
-
-Algumas melhorias que poderiam ser implementadas para evolução do projeto:
-
-* Implementação de **camada de Service** para separação de responsabilidades
-* Uso de **DTOs para transferência de dados** entre camadas
-* Documentação da API utilizando **Swagger / OpenAPI**
-* Implementação de **testes unitários**
-* Adição de **autenticação e autorização com Spring Security**
 
 ---
 
