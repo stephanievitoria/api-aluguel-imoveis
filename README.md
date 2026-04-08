@@ -201,7 +201,7 @@ http://localhost:8080
 
 ---
 
-# 🎓 Contexto Acadêmico
+# Contexto Acadêmico
 
 Este projeto foi desenvolvido durante o **3º semestre do curso de Sistemas de Informação**, na disciplina de **Programação de Sistemas II**.
 
@@ -209,7 +209,7 @@ O objetivo da atividade foi aplicar conceitos de desenvolvimento backend utiliza
 
 ---
 
-# 👩‍💻 Autora
+# Autora
 
 **Stephanie Vitoria Soares da Cruz**
 
